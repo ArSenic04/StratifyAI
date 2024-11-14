@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Constants
 API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
-API_KEY = "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"
+API_KEY = ""
 
 def query_llm(prompt: str) -> str:
     """Query the LLM model with a prompt."""

@@ -1,7 +1,7 @@
 import { UseCase, Resource, CompanyFinancials } from '../types';
 
 const API_URL = 'https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta';
-const API_KEY = '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';
+const API_KEY = '';
 
 async function queryLLM(prompt: string): Promise<string> {
   const response = await fetch(API_URL, {

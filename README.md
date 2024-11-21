@@ -19,7 +19,7 @@ Stratify is an intelligent web application that generates text-based insights an
 2. Install **TypeScript** globally:  
    ```bash
    npm install -g typescript
-3. Create an account on [https://huggingface.co/](Hugging Face) and generate your API key (details below).
+3. Create an account on [Hugging Face](https://huggingface.co/) and generate your API key (details below).
 
 ## Steps to Run the Project
 
@@ -41,11 +41,13 @@ Stratify is an intelligent web application that generates text-based insights an
    ```bash
    npm run dev
 ## Steps to Generate a Hugging Face API Key
-   1.Go to Hugging Face.
-   2.Sign in or create an account.
-   3.Navigate to your account settings and select API Tokens.
-   4.Click on New Token, provide a name, and generate the token.
-   5.Copy the generated token and add it to your .env file as REACT_APP_API_KEY.
+
+1. Go to [Hugging Face](https://huggingface.co/).
+2. Sign in or create an account.
+3. Navigate to your account settings and select **API Tokens**.
+4. Click on **New Token**, provide a name, and generate the token.
+5. Copy the generated token and add it to your `.env` file as `REACT_APP_API_KEY`.
+
    
 ## Customizing the Hugging Face Model
 To switch models, update the following code in src/config.ts:
